@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+#navbar-ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar-ul li a{
+    padding-left: 35px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.intro-section{
+    text-align: center;
+}
+
+/* Image and Title section */
+
+.img-text-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-text-section img{
+    width: 500px;
+}
+
+.img-text-section p:nth-of-type(1){
+    padding: 15px;
+    margin: 15px;
+    font-size: 60px;
+    width: 50%;
+}
+
+
+.intro-summary{
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    background-color: lightpink;
+    margin-left: 10%;
+}
+
+
+
+/* Agency Section */
+
+.agency-section{
+    text-align: center;
+    margin: 12% 0;
+    margin-bottom: 0;
+    padding: 100px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+}
+
+.agency-section p:nth-of-type(1){
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.agency-section p{
+    padding: 50px;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+
+/* Services List Section */
+.service-section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+}
+
+#service-list{
+    text-align: center;
+    width: 50%;
+    height: 900px;
+}
+
+#service-list p{
+    font-size: 25px;
+    margin: 100px;
+    padding: 35px;
+    text-align: center;
+}
+
+#service-list ul{
+    list-style: none;
+}
+
+#service-list ul li{
+    padding: 30px;
+    font-size: 18px;
+}
+
+/* Testimonials Section */
+
+.testimonial-showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Menu Section Leading to Blogs */
+
+.blog-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.blog-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 30px;
+    width: 30%;
+    height: 450px;
+}
+
+.blog-card-text{
+    padding: 15px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.blog-card-title{
+    font-size: 20px;
+    padding: 5px;   
+    margin-bottom: 5px;
+}
+
+.blog-card button{
+    padding: 8px 12px;
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* Sponsors Section */
+
+.sponsors-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+
+.massive-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
